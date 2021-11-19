@@ -1,3 +1,5 @@
+console.time();
+
 const str = 'f(X) !== G(X) !== F(X)';
 
 // Write a function which accepts a string argument and returns the count of characters between the first and last character 'X'
@@ -18,3 +20,5 @@ function getTheGapX(str){
 }
 
 console.log(`Gap between the X's : ${getTheGapX(str)}`);
+
+console.timeEnd();

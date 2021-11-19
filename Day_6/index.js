@@ -1,5 +1,8 @@
 const str = 'JavaScript is simple but not easy to master';
 
+// Write a function to truncate a string to a certain number of words
+// Truncate a string to a certain number of words
+
 const wordLimit = 3;
 // return char till word Limit.
 function truncateWithWordLimit(str,wordLimit){
